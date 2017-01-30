@@ -1,5 +1,6 @@
 $('#amelenchon').click(function() {
   $('#jeanlucnorevolution').show();
+  $('#armeedeyorkshires').hide();
   $('#lafrancevive').hide();
   $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
@@ -10,6 +11,7 @@ $('#amelenchon').click(function() {
 
 $('#ajadot').click(function() {
   $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
   $('#lafrancevive').show();
   $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
@@ -20,6 +22,7 @@ $('#ajadot').click(function() {
 
 $('#adurif').click(function() {
   $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
   $('#lafrancevive').hide();
   $('#lechristcosmique').show();
   $('#jenesuispassocialiste').hide();
@@ -30,6 +33,7 @@ $('#adurif').click(function() {
 
 $('#amacron').click(function() {
   $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
   $('#lafrancevive').hide();
   $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').show();
@@ -40,6 +44,7 @@ $('#amacron').click(function() {
 
 $('#aaignan').click(function() {
   $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
   $('#lafrancevive').hide();
   $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
@@ -50,6 +55,7 @@ $('#aaignan').click(function() {
 
 $('#afillon').click(function() {
   $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
   $('#lafrancevive').hide();
   $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
@@ -60,6 +66,7 @@ $('#afillon').click(function() {
 
 $('#alesquen').click(function() {
   $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
   $('#lafrancevive').hide();
   $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
@@ -67,6 +74,17 @@ $('#alesquen').click(function() {
   $('#epilationdessourcils').hide();
   $('#laracecongoide').show();
 });
+
+$('#ahamon').click(function() {
+  $('#armeedeyorkshires').show();
+  $('#jeanlucnorevolution').hide();
+  $('#lafrancevive').hide();
+  $('#lechristcosmique').hide();
+  $('#jenesuispassocialiste').hide();
+  $('#jeseraiaudeuxiemetour').hide();
+  $('#epilationdessourcils').hide();
+  $('#laracecongoide').hide();
+})
 
 $('#alepen').click(function() {
   $('#bleumarine').show();
