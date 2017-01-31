@@ -164,6 +164,8 @@
                     </div>
                 </div>
             </div>
+  		<h4 style="color: black">Apocalypse politique dans :<h4><br/>
+  	    <b><span id="clock" style="color: black"></span></b>
         </div>
     </section>
 
@@ -743,5 +745,24 @@
     <!-- Core of the website -->
     <script src="candidats.js"></script>
 
+    <script src="js/countdown.js"></script>
+
+    <script> <!-- Compte à rebours avant le second tour des présidentielles -->
+    var clock = document.getElementById("clock")
+        , targetDate = new Date("May 6, 2017 20:00:00");
+
+      clock.innerHTML = countdown(targetDate).toString();
+      countdown.setLabels(' milliseconde| seconde| minute| heure| jour| semaine| mois| année| décennie| siècle| millénaire',' millisecondes| secondes| minutes| heures| jours| semaines| mois| années| décennies| siècles| millénaires',' et ',', ','maintenant');
+    </script>
+
+    <script> <!-- Pour rendre le compte à rebours dynamique -->
+    var clockt = document.getElementById("countdown-holder")
+        , targetDate = new Date("May 6, 2017 20:00:00");
+
+      clock.innerHTML = countdown(targetDate).toString();
+      setInterval(function(){
+        clock.innerHTML = countdown(targetDate).toString();
+      }, 1000);
+    </script>
 </body>
 </html>
