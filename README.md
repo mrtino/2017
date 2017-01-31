@@ -4,7 +4,7 @@ Site permettant de comparer le programme des candidats à l'élection président
 # TODO
 
 * Rendre ce site mobile
-* Ajouter le programme de Yannick Jadot et de Marine Le Pen dès qu'ils seront disponibles
+* Ajouter le programme de Marine Le Pen dès qu'ils sera disponible
 
 # LICENCE
 Le site est sous licence MIT tandis que le template Grayscale est sous licence Apache.
