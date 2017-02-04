@@ -6,6 +6,7 @@ $('#amelenchon').click(function() {
   $('#jenesuispassocialiste').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
   $('#laracecongoide').hide();
 });
 
@@ -17,6 +18,7 @@ $('#ajadot').click(function() {
   $('#jenesuispassocialiste').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
   $('#laracecongoide').hide();
 });
 
@@ -28,6 +30,7 @@ $('#adurif').click(function() {
   $('#jenesuispassocialiste').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
   $('#laracecongoide').hide();
 });
 
@@ -39,6 +42,7 @@ $('#amacron').click(function() {
   $('#jenesuispassocialiste').show();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
   $('#laracecongoide').hide();
 });
 
@@ -50,6 +54,7 @@ $('#aaignan').click(function() {
   $('#jenesuispassocialiste').hide();
   $('#jeseraiaudeuxiemetour').show();
   $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
   $('#laracecongoide').hide();
 });
 
@@ -61,6 +66,7 @@ $('#afillon').click(function() {
   $('#jenesuispassocialiste').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').show();
+  $('#bleumarine').hide();
   $('#laracecongoide').hide();
 });
 
@@ -72,6 +78,7 @@ $('#alesquen').click(function() {
   $('#jenesuispassocialiste').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
   $('#laracecongoide').show();
 });
 
@@ -83,10 +90,18 @@ $('#ahamon').click(function() {
   $('#jenesuispassocialiste').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
   $('#laracecongoide').hide();
 })
 
 $('#alepen').click(function() {
   $('#bleumarine').show();
-    alert("Le programme de Marine Le Pen sera connu en février 2017. Reviens plus tard pour le découvrir !");
+  $('#jeanlucnorevolution').hide();
+  $('#lafrancevive').hide();
+  $('#lechristcosmique').hide();
+  $('#jenesuispassocialiste').hide();
+  $('#jeseraiaudeuxiemetour').hide();
+  $('#epilationdessourcils').hide();
+  $('#laracecongoide').hide();
+  $('#armeedeyorkshires').hide();
 });
