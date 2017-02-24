@@ -10,18 +10,6 @@ $('#amelenchon').click(function() {
   $('#laracecongoide').hide();
 });
 
-$('#ajadot').click(function() {
-  $('#jeanlucnorevolution').hide();
-  $('#armeedeyorkshires').hide();
-  $('#lafrancevive').show();
-  $('#lechristcosmique').hide();
-  $('#jenesuispassocialiste').hide();
-  $('#jeseraiaudeuxiemetour').hide();
-  $('#epilationdessourcils').hide();
-  $('#bleumarine').hide();
-  $('#laracecongoide').hide();
-});
-
 $('#adurif').click(function() {
   $('#jeanlucnorevolution').hide();
   $('#armeedeyorkshires').hide();
