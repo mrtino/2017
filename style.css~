@@ -116,6 +116,7 @@
 
 .accordion ul li:nth-child(7) { background-image: url("img/lepen.jpeg"); }
 
+.accordion ul li:nth-child(8) { background-image: url("img/lesquen.jpg"); }
 
 .accordion ul:hover li { width: 8%; }
 
