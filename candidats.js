@@ -23,7 +23,6 @@ $('#adurif').click(function() {
 });
 
 $('#amacron').click(function() {
-  alert("Le programme d'Emmanuel Macron n'est toujours pas connu. Il sortira en mars, soit un mois avant le premier tour des élections. Ce qui est affiché ici n'est qu'une partie de ce qui est sur vision-macron.fr, il n'est pas représentatif du projet d'Emmanuel Macron.");
   $('#jeanlucnorevolution').hide();
   $('#armeedeyorkshires').hide();
   $('#lafrancevive').hide();
