@@ -1,9 +1,25 @@
 $('#aarthaud').click(function() {
   $('#lecampdestravailleurs').show();
+  $('#leperequetoutlemondeveut').hide();
   $('#jeanlucnorevolution').hide();
   $('#armeedeyorkshires').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
+  $('#jeseraiaudeuxiemetour').hide();
+  $('#ilressembleapalpatineunpeu').hide();
+  $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
+});
+
+$('#apoutou').click(function() {
+  $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').show();
+  $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
+  $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#ilressembleapalpatineunpeu').hide();
   $('#epilationdessourcils').hide();
@@ -12,22 +28,12 @@ $('#aarthaud').click(function() {
 
 $('#amelenchon').click(function() {
   $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
   $('#jeanlucnorevolution').show();
   $('#armeedeyorkshires').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
-  $('#jeseraiaudeuxiemetour').hide();
-  $('#ilressembleapalpatineunpeu').hide();
-  $('#epilationdessourcils').hide();
-  $('#bleumarine').hide();
-});
-
-$('#adurif').click(function() {
-  $('#lecampdestravailleurs').hide();
-  $('#jeanlucnorevolution').hide();
-  $('#armeedeyorkshires').hide();
-  $('#lechristcosmique').show();
-  $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#ilressembleapalpatineunpeu').hide();
   $('#epilationdessourcils').hide();
@@ -36,10 +42,12 @@ $('#adurif').click(function() {
 
 $('#amacron').click(function() {
   $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
   $('#jeanlucnorevolution').hide();
   $('#armeedeyorkshires').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').show();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#ilressembleapalpatineunpeu').hide();
   $('#epilationdessourcils').hide();
@@ -48,11 +56,40 @@ $('#amacron').click(function() {
 
 $('#aaignan').click(function() {
   $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
   $('#jeanlucnorevolution').hide();
   $('#armeedeyorkshires').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').show();
+  $('#ilressembleapalpatineunpeu').hide();
+  $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
+});
+
+$('#alassalle').click(function() {
+  $('#leberger').show();
+  $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
+  $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
+  $('#jenesuispassocialiste').hide();
+  $('#forceurdepuis1995').hide();
+  $('#jeseraiaudeuxiemetour').hide();
+  $('#ilressembleapalpatineunpeu').hide();
+  $('#epilationdessourcils').hide();
+  $('#bleumarine').hide();
+});
+
+$('#acheminade').click(function() {
+  $('#forceurdepuis1995').show();
+  $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
+  $('#jeanlucnorevolution').hide();
+  $('#armeedeyorkshires').hide();
+  $('#jenesuispassocialiste').hide();
+  $('#jeseraiaudeuxiemetour').hide();
   $('#ilressembleapalpatineunpeu').hide();
   $('#epilationdessourcils').hide();
   $('#bleumarine').hide();
@@ -61,10 +98,12 @@ $('#aaignan').click(function() {
 $('#aasselineau').click(function() {
   $('#ilressembleapalpatineunpeu').show();
   $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
   $('#jeanlucnorevolution').hide();
   $('#armeedeyorkshires').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#epilationdessourcils').hide();
   $('#bleumarine').hide();
@@ -72,10 +111,12 @@ $('#aasselineau').click(function() {
 
 $('#afillon').click(function() {
   $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
   $('#jeanlucnorevolution').hide();
   $('#armeedeyorkshires').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#ilressembleapalpatineunpeu').hide();
   $('#epilationdessourcils').show();
@@ -84,10 +125,12 @@ $('#afillon').click(function() {
 
 $('#ahamon').click(function() {
   $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
   $('#armeedeyorkshires').show();
   $('#jeanlucnorevolution').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#ilressembleapalpatineunpeu').hide();
   $('#epilationdessourcils').hide();
@@ -96,10 +139,12 @@ $('#ahamon').click(function() {
 
 $('#alepen').click(function() {
   $('#lecampdestravailleurs').hide();
+  $('#leperequetoutlemondeveut').hide();
   $('#bleumarine').show();
   $('#jeanlucnorevolution').hide();
-  $('#lechristcosmique').hide();
   $('#jenesuispassocialiste').hide();
+  $('#leberger').hide();
+  $('#forceurdepuis1995').hide();
   $('#jeseraiaudeuxiemetour').hide();
   $('#ilressembleapalpatineunpeu').hide();
   $('#epilationdessourcils').hide();

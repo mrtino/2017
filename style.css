@@ -1,6 +1,9 @@
 #lecampdestravailleurs {
   display: none;
 }
+#leperequetoutlemondeveut {
+  display: none;
+}
 #jeanlucnorevolution {
   display: none;
 }
@@ -16,10 +19,19 @@
 #jenesuispassocialiste {
   display: none;
 }
+#leberger {
+  display: none;
+}
+#forceurdepuis1995 {
+  display: none;
+}
 #jeseraiaudeuxiemetour {
   display: none;
 }
 #ilressembleapalpatineunpeu {
+  display: none;
+}
+#forceurdepuis1995 {
   display: none;
 }
 #epilationdessourcils {
@@ -97,7 +109,7 @@
 .accordion ul li div a h2 {
   font-family: Montserrat, sans-serif;
   text-overflow: clip;
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 2px;
   top: 160px;
@@ -110,21 +122,25 @@
 
 .accordion ul li:nth-child(1) { background-image: url("img/arthaud.jpg"); }
 
-.accordion ul li:nth-child(2) { background-image: url("img/melenchon.jpg"); }
+.accordion ul li:nth-child(2) { background-image: url("img/poutou.jpg"); }
 
-.accordion ul li:nth-child(3) { background-image: url("img/durif.jpg"); }
+.accordion ul li:nth-child(3) { background-image: url("img/melenchon.jpg"); }
 
 .accordion ul li:nth-child(4) { background-image: url("img/hamon.jpg"); }
 
 .accordion ul li:nth-child(5) { background-image: url("img/macron.jpg"); }
 
-.accordion ul li:nth-child(6) { background-image: url("img/aignan.jpg"); }
+.accordion ul li:nth-child(6) { background-image: url("img/lassalle.jpg"); }
 
-.accordion ul li:nth-child(7) { background-image: url("img/asselineau.jpg"); }
+.accordion ul li:nth-child(7) { background-image: url("img/aignan.jpg"); }
 
-.accordion ul li:nth-child(8) { background-image: url("img/fillon.jpg"); }
+.accordion ul li:nth-child(8) { background-image: url("img/asselineau.jpg"); }
 
-.accordion ul li:nth-child(9) { background-image: url("img/lepen.jpeg"); }
+.accordion ul li:nth-child(9) { background-image: url("img/cheminade.jpg"); }
+
+.accordion ul li:nth-child(10) { background-image: url("img/fillon.jpg"); }
+
+.accordion ul li:nth-child(11) { background-image: url("img/lepen.jpeg"); }
 
 
 .accordion ul:hover li { width: 8%; }
