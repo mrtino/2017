@@ -10,6 +10,7 @@
     <meta name="twitter:site" content="@monsieurtino" />
     <meta name="twitter:title" content="Les candidats de 2017 décortiqués" />
     <meta name="twitter:description" content="Découvre le programme des candidats à l'élection présidentielle !" />
+    <meta name="twitter:image" content="https://i.mrtino.eu/Gee1Oese.png" />
 
     <meta property="og:url" content="https://2017.mrtino.eu">
     <meta property="og:title" content="Les candidats de 2017 décortiqués">
@@ -185,8 +186,12 @@
                 </div>
             </div>
             <br>
-  		<h4 style="color: black">Apocalypse politique dans :<h4><br/>
-  	    <b><span id="clock" style="color: black"></span></b>
+      <h4 style="color: black">Premier tour dans :</h4><br/>
+        <p><b><span id="clock1" style="color: black"></span></b></p>
+      <br>
+      <br>
+  		<h4 style="color: black">Apocalypse politique dans :</h4><br/>
+  	    <p><b><span id="clock2" style="color: black"></span></b></p>
         </div>
     </section>
 
@@ -527,7 +532,7 @@
     <div id="jenesuispassocialiste" class="row">
       <h2 id="titlemacron"><a href="https://storage.googleapis.com/en-marche-fr/COMMUNICATION/Programme-Emmanuel-Macron.pdf">&laquo; Contrat avec la Nation &raquo;</a> d'Emmanuel Macron</h2>
       <p>Emmanuel Macron est soutenu par : Laurence Haïm, Gérard Collomb, François Bayrou, Manuel Valls, Daniel Cohn-Bendit, François de Rugy, Alain Minc, Jacques Attali</p>
-      <p>Né d'un père médecin et d'une mère médecin-conseil à la Sécurité Sociale, Emmanuel Macron fut Haut Fonctionnaire et banquier d'affaires.<br>Il a 2 ans de mandat, en tant que ministre de l'Economie.<br>Il se présente pour la première fois aux élections présidentielles.</p>
+      <p>Né d'un père médecin et d'une mère médecin-conseil à la Sécurité Sociale, Emmanuel Macron fut Haut Fonctionnaire et banquier d'affaires.<br>Il a 2 ans de mandat, en tant que ministre de l'Économie.<br>Il se présente pour la première fois aux élections présidentielles.</p>
       <div id="macron" class="col-lg-6">
         <h4>Politique</h4>
           <ul>
@@ -940,21 +945,37 @@
 
     <script src="js/countdown.js"></script>
 
+    <script> <!-- Compte à rebours avant le premier tour -->
+    var clock1 = document.getElementById("clock1")
+        , targetDate1 = new Date("April 23, 2017 20:00:00");
+
+      clock1.innerHTML = countdown(targetDate1).toString();
+      countdown.setLabels(' milliseconde| seconde| minute| heure| jour| semaine| mois| année| décennie| siècle| millénaire',' millisecondes| secondes| minutes| heures| jours| semaines| mois| années| décennies| siècles| millénaires',' et ',', ','maintenant');
+    </script>
+    <script>
+    var clock1t = document.getElementById("countdown-holder")
+        , targetDate1 = new Date("April 23, 2017 20:00:00");
+
+      clock1.innerHTML = countdown(targetDate1).toString();
+      setInterval(function() {
+        clock1.innerHTML = countdown(targetDate1).toString();
+      }, 1000);
+    </script>
     <script> <!-- Compte à rebours avant le second tour des présidentielles -->
-    var clock = document.getElementById("clock")
+    var clock2 = document.getElementById("clock2")
         , targetDate = new Date("May 7, 2017 20:00:00");
 
-      clock.innerHTML = countdown(targetDate).toString();
+      clock2.innerHTML = countdown(targetDate).toString();
       countdown.setLabels(' milliseconde| seconde| minute| heure| jour| semaine| mois| année| décennie| siècle| millénaire',' millisecondes| secondes| minutes| heures| jours| semaines| mois| années| décennies| siècles| millénaires',' et ',', ','maintenant');
     </script>
 
     <script> <!-- Pour rendre le compte à rebours dynamique -->
-    var clockt = document.getElementById("countdown-holder")
+    var clock2t = document.getElementById("countdown-holder")
         , targetDate = new Date("May 7, 2017 20:00:00");
 
-      clock.innerHTML = countdown(targetDate).toString();
+      clock2.innerHTML = countdown(targetDate).toString();
       setInterval(function(){
-        clock.innerHTML = countdown(targetDate).toString();
+        clock2.innerHTML = countdown(targetDate).toString();
       }, 1000);
     </script>
 </body>
