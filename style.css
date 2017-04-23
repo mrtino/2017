@@ -120,27 +120,27 @@
   font-size: 13.5px;
 }
 
-.accordion ul li:nth-child(1) { background-image: url("img/arthaud.jpg"); }
+.accordion ul li:nth-child(1) { background-image: url("imgv2/arthaud.jpg"); }
 
-.accordion ul li:nth-child(2) { background-image: url("img/poutou.jpg"); }
+.accordion ul li:nth-child(2) { background-image: url("imgv2/poutou.jpg"); }
 
-.accordion ul li:nth-child(3) { background-image: url("img/melenchon.jpg"); }
+.accordion ul li:nth-child(3) { background-image: url("imgv2/melenchonifloses.jpg"); }
 
-.accordion ul li:nth-child(4) { background-image: url("img/hamon.jpg"); }
+.accordion ul li:nth-child(4) { background-image: url("imgv2/hamon.jpg"); }
 
-.accordion ul li:nth-child(5) { background-image: url("img/macron.jpg"); }
+.accordion ul li:nth-child(5) { background-image: url("imgv2/macron.jpg"); }
 
-.accordion ul li:nth-child(6) { background-image: url("img/lassalle.jpg"); }
+.accordion ul li:nth-child(6) { background-image: url("imgv2/lassalle.jpg"); }
 
-.accordion ul li:nth-child(7) { background-image: url("img/aignan.jpg"); }
+.accordion ul li:nth-child(7) { background-image: url("imgv2/aignan.jpg"); }
 
-.accordion ul li:nth-child(8) { background-image: url("img/asselineau.jpg"); }
+.accordion ul li:nth-child(8) { background-image: url("imgv2/asselineauifloses.jpg"); }
 
-.accordion ul li:nth-child(9) { background-image: url("img/cheminade.jpg"); }
+.accordion ul li:nth-child(9) { background-image: url("imgv2/cheminade.jpg"); }
 
-.accordion ul li:nth-child(10) { background-image: url("img/fillon.jpg"); }
+.accordion ul li:nth-child(10) { background-image: url("imgv2/fillonifloses.jpg"); }
 
-.accordion ul li:nth-child(11) { background-image: url("img/lepen.jpeg"); }
+.accordion ul li:nth-child(11) { background-image: url("imgv2/lepen.jpg"); }
 
 
 .accordion ul:hover li { width: 8%; }
